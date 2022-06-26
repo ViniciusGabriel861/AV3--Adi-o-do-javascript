@@ -1,0 +1,34 @@
+body {
+    font: 20px arial;
+}
+
+.navbar {
+    background-color: #acf0dbe7;
+}
+
+.quem-somos {
+    background-color: #19d395e7;
+    color: white;
+}
+
+.margin {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.protagonista {
+    background-color: black;
+    color: white;
+}
+
+.row {
+    padding-top: 80px;
+}
+
+.curiosidades {
+    background-color: rgb(113, 238, 161);
+}
+
+.bg-footer {
+    padding-top: 70px;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>FUTINS</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+            <img src="quadra.jpg" width="200" height="50">
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#inovação">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#protagonista">Protagonista</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#curiosidades">Mais Sobre</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <section id="inovação">
+        <div class="container-fluid quem-somos text-center margin">
+            <h3>INOVAÇÃO</h3>
+            <img src="imagem.png" class="rounded-circle" width="200px" height="200px">
+            <h3>Você já ouviu falar da nova modalidade esportiva que vem conquistando cada vez mais pessoas? Estou falando do Futins. Onde as chuteiras são substituídas por patins.
+            </h3>
+
+        </div>
+    </section>
+    <section id="protagonista">
+        <div class="container-fluid protagonista text-center margin">
+            <h3>PROTAGONISTA</h3>
+            <img src="bola.png" class="rounded-circle" width="200px" height="200px">
+            <h3>A bola é a personagem principal, ela que já cativa atletas de diversos outros esportes. É importante que ela seja mais resistente por conta do contato com os patins.</h3>
+            <div class="conteiner">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="chuteira.png" class="rounded-circle" width="200px" height="200px">
+                        <h3 class="col-lg-20">A chuteira por sua vez que perdeu o seu espaço nesta modalidade</h3>
+                    </div>
+                </div>
+            </div>
+            <h3></h3>
+        </div>
+
+    </section>
+    <section id="curiosidades">
+        <div class="container-fluid curiosidades text-center margin">
+            <h3>CURIOSIDADES</h3>
+            <div class="conteiner">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p>Esporte que Inspirou</p>
+                        <img src="hoquei.jpg" width="50%">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Local de realização</p>
+                        <img src="quadra.jpg" width="50%">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Venha nos apoiar em nossa próxima partida! Ingressos a venda no Sympla</p>
+                        <img src="sympla.png" width="50%">
+                    </div>
+                </div>
+            </div>
+
+            <header>
+                <h1>Ingresso Fácil Sympla</h1>
+            </header>
+            <main>
+                <p>Valor do Ingresso</p>
+                <p>Geral 7.00 R$</p>
+                <section>
+
+                    <article>
+
+                        <div>
+                            <fieldset style="width: 50%;">
+                                <legend>Quantidade</legend>
+                                <div>
+                                    <label>Quantidade de Ingressos</label>
+                                    <input id="ingresso" type="number" value="0"></input>
+                                </div>
+                            </fieldset>
+
+
+                            <button onclick="calcula_valor()">Calcular</button>
+                        </div>
+                    </article>
+                    <footer>
+                        <h3>
+                            <span id="resposta">Total a pagar: </span>
+
+                        </h3>
+
+                    </footer>
+                </section>
+
+            </main>
+
+            <footer class="conteiner-fluid texte-center bg-footer">
+                <p>Desenvolvido por Vinícius</p>
+
+            </footer>
+            <script src="script.js"></script>
+</body>
+
+</html>
